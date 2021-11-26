@@ -1,0 +1,25 @@
+{
+  "name": "ai-programming",
+  "version": "0.0.1",
+  "description": "Report for the AI programming project",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "Piet Cordemans, Franky Loret",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-zooming": "^1.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-programming-21/report-template"
+  },
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "#readme"
+}
