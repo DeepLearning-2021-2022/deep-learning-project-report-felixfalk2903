@@ -29,3 +29,23 @@ Something that makes me believe the reason for this is the fact that we added a 
 ## Second test
 
 The next test would be to let the ai train with all 28thousand pictures. Let's see how it does for 50 epochs.
+
+After training the moddel for 2hours and 20minutes my pc bluescreened....
+
+lets start over again.... this time i'm going to let it train during the night lets see what that brings.
+
+## third test
+
+After letting the ai train through the night with our data set so all 28thousand pictures with 50 epochs. This was the result:
+
+![third-trainingset-epchs.png](./img/third-trainingset-epchs.png)
+
+Not to shabby if you'd ask me. with an accuracy of 0.9961, it seems like it might be overfitting but isn't nececerly. Lets go and look at an actual predicton of the set:
+
+![Predictie3.png](./img/Predictie3.png)
+
+Well it failed horribly!!! Again!!!
+
+My guess would be that it has something todo with the conversions, in the program we resise every picture to 75x100 becouse that is the sice we use. But it might be that the letter we get from the number plates are another sice. Something deffently is still off. But there is progress. Since the network is not just guessing that all outputs are G's.
+
+
